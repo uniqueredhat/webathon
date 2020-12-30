@@ -1,12 +1,52 @@
 .wimg{
+    position: absolute;
     width: 600px;
     height: 600px;
-    padding-top: 50px;
+    
 }
 .wh1{
     text-align: center;
     text-transform: uppercase;
+    cursor: pointer;
 }
-wt{
+.wh11{
+ animation: wh11 5s infinite ;
+}
+.wt{
     font-family: 'Times New Roman';
+}
+.wdes{
+    position: absolute;
+    float: left;
+    left: 650px;
+   
+}
+.wdes1{
+    animation: wdes 5s infinite ;
+   
+}
+wdes2{
+    font-style: italic;
+}
+
+
+@keyframes wdes{
+    0%{
+        color: aliceblue;
+    }
+    25%{
+        color: antiquewhite;
+    }
+    50%{
+        color: aqua;
+    }
+    75%{
+        color: aquamarine;
+    }
+}
+@keyframes wh11{
+    50%{
+        background-color: black;
+        color: white;
+    }
 }
