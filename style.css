@@ -45,6 +45,8 @@
     background: url("https://pngimg.com/uploads/anonymous_mask/anonymous_mask_PNG32.png");
 }
 .project{
+    border: 1px solid blue;
+    padding: 1px;
     margin-top: 100px;
     position: absolute;
     width: 70%;
@@ -64,14 +66,49 @@
     opacity: 0.7;
 }
 .myself{
-    margin-left: 40%;
-    width: 25%;
+    margin-left: 35%;
+    font-family: monospace;
+    width: 35%;
     background-color: paleturquoise;
     text-align: center;
     color: #000000;
 }
-
-
+.myself:hover{
+    background-color: salmon;
+    color: seashell;
+}
+.link{
+    text-decoration: none;
+    color: royalblue;
+}
+#footer{
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 20%;
+    width: 60%;
+    background-color: thistle;
+    color: silver;
+}
+.fbtn{
+    border: 5px solid red;
+    width: 200px;
+    height: 60px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3%;
+    background-color: red;
+}
+.fa{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    opacity: 0.6;
+}
+.fbtn:hover{
+    background-color: yellow;
+}
+.fa:hover{
+    color:red;
+}
 @keyframes wdes{
     0%{
         color: #f0f8ff;
