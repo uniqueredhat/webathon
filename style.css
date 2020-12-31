@@ -18,6 +18,11 @@ display:none;
 display:none;
 }
 }
+@media(min-width:767px){
+.dont{
+display:none;
+}
+}
 
 .header{
 
