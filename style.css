@@ -2,6 +2,12 @@
    .header{
       display: none;
    }
+.project{
+display:none;
+}
+#footer{
+disply:none;
+}
 }
 
 .header{
